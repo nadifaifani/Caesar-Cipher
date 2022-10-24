@@ -1,0 +1,68 @@
+
+.button{
+    border: none;
+    font-size: medium;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 0.5em;
+    margin-top: 10px;
+}
+body{
+    background-color: #FCE2DB;
+}
+.link{
+    position:relative;
+    margin-left: 40%;
+    margin-top: 5.5%;
+    width: 180px;
+    height: 100px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    padding: 15px 5px;
+    background-color: #B270A2;
+    border-radius: 0.5em;
+    text-decoration: none;
+    color: #FCE2DB;
+}
+a :hover{
+    cursor: pointer;
+}
+.active {
+    background-color: #FF8FB1;
+    color: #FCE2DB;
+}
+.enkrip{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    border-radius: 0.5em;
+    background-color: #FF8FB1;
+    color: #FCE2DB;
+}
+.atas, .bawah{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+textarea{
+    color: #7A4495;
+}
+.button{
+    background-color:#7A4495;
+    border: none;
+    color: #FCE2DB;
+    font-size: medium;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 0.5em;
+}
+.button:hover{
+    background-color: #B270A2;
+    cursor: pointer;
+}
